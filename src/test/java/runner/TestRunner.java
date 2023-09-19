@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"src/test/resources/Features"},
 				 glue = {"stepDefinitions"}, 
-				 tags = "@test1",
+				 tags = "@login",
 				 dryRun = false, 
 				 monochrome = true,
 				 stepNotifications=true,
