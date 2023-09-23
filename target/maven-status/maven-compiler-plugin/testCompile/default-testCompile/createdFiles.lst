@@ -1,4 +1,0 @@
-stepDefinitions\Initializer.class
-stepDefinitions\LoginStepsDefinition.class
-pageObjects\LoginPageObjects.class
-runner\TestRunner.class
