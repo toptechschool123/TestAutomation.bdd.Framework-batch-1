@@ -252,7 +252,7 @@
 							<goal>generate</goal>
 						</goals>
 						<configuration>
-							<projectName>toptechschool2</projectName>
+							<projectName>TopTechSchool</projectName>
 							<outputDirectory>
 								target/cucumber-reports/advanced-reports</outputDirectory>
 							<cucumberOutput>

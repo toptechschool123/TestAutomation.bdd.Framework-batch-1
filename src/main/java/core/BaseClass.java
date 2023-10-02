@@ -4,8 +4,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
-import java.util.logging.Logger;
-
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 public class BaseClass {
@@ -16,7 +15,7 @@ public class BaseClass {
 	private String userDirectory = System.getProperty("user.dir");
 	private String ppfile = ".\\src\\test\\resources\\ProjectData\\project.properties";
 	private String pathtoPP = userDirectory + ppfile;
-  // public static Logger logger;
+   public static Logger logger;
 	
 	public BaseClass() {
 		try {
@@ -35,8 +34,8 @@ public class BaseClass {
 		}
 	
 		
-	//	logger = logger.getLogger("Logger_File");
-	//	PropertyConfigurator.configure(".\\src\\test\\resources\\ProjectData\\Log4j2.properties");
+		logger = logger.getLogger("Logger_File");
+		PropertyConfigurator.configure(".\\src\\test\\resources\\ProjectData\\Log4j2.properties");
 	}
 	
 	
