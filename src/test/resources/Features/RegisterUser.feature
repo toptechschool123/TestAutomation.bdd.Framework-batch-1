@@ -1,6 +1,6 @@
 Feature: Registeration  functionality
 
-  Scenario: Register new customer
+  Scenario: Register new customers
     Given user is on home page
     When user clicks on myaccount
     When user click register button
