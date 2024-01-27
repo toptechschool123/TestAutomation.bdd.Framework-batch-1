@@ -40,6 +40,11 @@ public class LoginStepsDefinition extends BaseClass{
 	public void user_is_navigated_to_the_account() {
 	   
 	}
+	
+	public void myTestMethod() {
+		
+		System.out.println("it is test method");
+	}
 
 
 

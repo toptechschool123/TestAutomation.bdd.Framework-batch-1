@@ -1,7 +1,9 @@
-stepDefinitions\Initializer.class
 stepDefinitions\LoginStepsDefinition.class
 stepDefinitions\ScenarioOutlineSteps.class
-stepDefinitions\CheckoutItemsSteps.class
 pageObjects\CheckOutItemsPageObject.class
+pageObjects\RegisterUserPageObjects.class
+stepDefinitions\Initializer.class
+stepDefinitions\RegisterUserSteps.class
+stepDefinitions\CheckoutItemsSteps.class
 pageObjects\LoginPageObjects.class
 runner\TestRunner.class
